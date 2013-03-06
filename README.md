@@ -258,4 +258,5 @@ test
 vendor
   External libraries that the application depends on. Also includes the plugins
   subdirectory. If the app has frozen rails, those gems also go here, under
-  vendor/rails/. This directory is in the load path.
+ t remote add origin https://github.com/shuiyin/first_app.git
+git push -u origin master vendor/rails/. This directory is in the load path.
